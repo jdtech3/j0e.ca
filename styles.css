@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi|Roboto+Mono&display=swap');
+
+/* Page */
+html, body, .container {
+    height: 100%;
+    background-color: #17082f;
+}
+
+/* Colors */
+.teal {
+    color: #18FFFF;
+}
+.light-grey {
+    color: #F5F5F5;
+}
+.yellow {
+    color: #FFFF00;
+}
+
+/* Fonts */
+.sans-serif {
+    font-family: 'Reem Kufi', sans-serif;
+}
+.monospace {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #FFFF00;
+}
+a:hover {
+    text-decoration: underline;
+    color: #FFFF00;
+}
+
+/* Copyright footer */
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    text-align: center;
+}
