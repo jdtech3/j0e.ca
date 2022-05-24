@@ -44,3 +44,23 @@ a:hover {
     font-size: 12px;
     text-align: center;
 }
+
+/* Blinky animations */
+.blink {
+    animation: blink 1.5s infinite;
+}
+@keyframes blink {
+    23% {
+        opacity: 100%;
+    }
+    25% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 100%;
+    }
+}
