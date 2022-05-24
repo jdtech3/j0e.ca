@@ -1,6 +1,7 @@
 // Settings
 const target = document.getElementById('whoami');
-const typeDelay = 0.1;      // speeds in seconds
+const typeDelay = 0.1;          // speeds in seconds
+const backspaceDelay = 0.05;
 const chillDelay = 2;
 const before = 'I am '
 const me = [
@@ -26,16 +27,24 @@ let currentLine = 0;
 let currentChars = me_expanded[0].filter(() => true);   // clone array so we don't just have a reference
 function type() {
     if (currentChars.length !== 0) {
-        target.innerText += currentChars.shift();
+        target.innerText += currentChars.shift();       // display next char
 
         setTimeout(type, typeDelay * 1000);
     }
     else {
-        currentLine = (currentLine + 1 < me_expanded.length) ? currentLine + 1 : 0;
-        currentChars = me_expanded[currentLine].filter(() => true);     // clone array like above
+        currentLine = (currentLine + 1 < me_expanded.length) ? currentLine + 1 : 0;     // run through all lines in a loop
+        currentChars = me_expanded[currentLine].filter(() => true);                     // clone array like above
 
-        setTimeout(function() {target.innerText = before}, chillDelay * 1000);
-        setTimeout(type, chillDelay * 1000);
+        setTimeout(backspace, chillDelay * 1000);
+    }
+}
+function backspace() {
+    if (target.innerText !== before) {
+        target.innerText = target.innerText.slice(0, -1);       // remove last char from text
+        setTimeout(backspace, backspaceDelay * 1000);
+    }
+     else {
+        setTimeout(type, typeDelay * 1000);     // go back to typing once all text is removed
     }
 }
 
