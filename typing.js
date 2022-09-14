@@ -5,14 +5,16 @@ const backspaceDelay = 0.05;
 const chillDelay = 2;
 const before = 'I am '
 const me = [
-    'a Student',
+    'a Student @ U of T',
     '(hopefully) an Electrical Engineer soon™',
     'an Archivist',
     'a Tinkerer',
     'a Data Hoarder',
     'a Programmer',
     'a Sysadmin',
+    'a Homelabber',
     'a D&D Player',
+    'a Snowboarder',
     'a Canadian',
 ]
 
@@ -51,3 +53,4 @@ function backspace() {
 // Start!
 target.innerText = before;
 type();
+
