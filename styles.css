@@ -27,25 +27,22 @@ html, body, .container {
 
 /* Links */
 a {
-    text-decoration: none;
     color: #FFFF00;
+    text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
     color: #FFFF00;
+    text-decoration: underline;
 }
-.links > p {
+
+/* Socials */
+.socials > p {
     margin-bottom: 0.7rem;
 }
 
 /* Copyright footer */
 .copyright {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 12px;
-    text-align: center;
 }
 
 /* Blinky animations */
@@ -66,4 +63,13 @@ a:hover {
     79% {
         opacity: 100%;
     }
+}
+
+/* Projects */
+#current-projects {
+    margin-top: 2rem;
+}
+#completed-projects {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
 }
