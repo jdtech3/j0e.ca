@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
 
 /* Page */
 html, body, .container {
     height: 100%;
     background-color: #17082f;
+}
+
+/* Scrollbar */
+html::-webkit-scrollbar {
+    width: 12px;
+}
+html {
+    scrollbar-width: thin;
 }
 
 /* Colors */
@@ -19,10 +27,18 @@ html, body, .container {
 
 /* Fonts */
 .sans-serif {
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .monospace {
     font-family: 'Roboto Mono', monospace;
+}
+.small {
+    font-size: 70%;
+}
+
+/* Headings */
+h1 {
+    font-weight: bold;
 }
 
 /* Links */
@@ -70,6 +86,6 @@ a:hover {
     margin-top: 2rem;
 }
 #completed-projects {
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
 }
