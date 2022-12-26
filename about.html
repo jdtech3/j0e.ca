@@ -26,16 +26,28 @@
   <body>
     <div class="container">
 
-        <div class="header row pt-2 h-25 mx-auto my-auto text-center light-grey monospace">
+        <div class="header row pt-2 mb-5 mx-auto my-auto text-center light-grey monospace">
           <div class="col-2 offset-3"><a href="about.html">About</a></div>
           <div class="col-2"><a class="light-grey" href="index.html"><i class="fas fa-home"></i></a></div>
           <div class="col-2"><a class="light-grey" href="projects.html">Projects</a></div>
         </div>
 
-        <div class="content row mx-auto my-auto text-center">
-          <h1 class="teal sans-serif">Hi!</h1>
-
-          <p class="mt-5 light-grey">Oops! Still working on this, sorry!</p>
+        <div class="content row h-75 mx-auto my-auto text-center light-grey">
+          <div class="about-me card bg-transparent col-lg-8 mx-auto my-auto">
+            <img src="logo_no_bg.png" class="card-img-top mt-3" alt="Logo">
+            <div class="card-body mb-3">
+              <h1 class="card-title">Hi!</h1>
+              <p class="card-text">Nice to meet ya. I'm Joe, a student studying electrical engineering at the University of Toronto. I love coding, electronics, and solving problems!</p>
+              <p class="card-text">Some more about me:</p>
+              <ul class="list-group w-75 mx-auto align-items-center">
+                <li class="list-group-item">I currently live in Toronto, Canada <i class="fab fa-canadian-maple-leaf"></i></li>
+                <li class="list-group-item">I mainly code in Python <i class="fab fa-python"></i>, but dabble in C/C++, Java <i class="fab fa-java"></i>, TypeScript <i class="fab fa-js-square"></i>, and HTML/CSS/JS</li>
+                <li class="list-group-item">I have a home server (used to be a DL380 G7, now just a PC) running Proxmox, virtualizing my OPNsense router, <a href="https://pi-hole.net/">Pi-Hole</a> DNS/adblocker, TrueNAS 88TB NAS, <a href="https://metrics.torproject.org/rs.html#search/jdnet">Tor relays</a>, and a Nginx reverse proxy</li>
+                <li class="list-group-item">I am lucky to have a 8G/8G fiber uplink from Bell, which I use as an excuse to play with 10G/40G network gear <i class="far fa-grin-beam-sweat"></i></li>
+                <li class="list-group-item">I play EVE Online, Tetris, Minecraft, Space Engineers, and recently Warthunder</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div class="footer fixed-bottom row mx-auto my-auto text-center">
