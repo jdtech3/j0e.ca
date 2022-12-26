@@ -34,6 +34,9 @@ a:hover {
     text-decoration: underline;
     color: #FFFF00;
 }
+.links > p {
+    margin-bottom: 0.7rem;
+}
 
 /* Copyright footer */
 .copyright {
@@ -50,17 +53,17 @@ a:hover {
     animation: blink 1.5s infinite;
 }
 @keyframes blink {
-    23% {
+    21% {
         opacity: 100%;
     }
-    25% {
+    27% {
         opacity: 0;
     }
 
-    75% {
+    73% {
         opacity: 0;
     }
-    77% {
+    79% {
         opacity: 100%;
     }
 }
