@@ -98,6 +98,13 @@ a:hover {
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
+.card-title {
+    margin: 0.5em;
+}
+.card-body .btn {
+    margin: auto;
+    width: 75%;
+}
 
 /* About */
 #about-me .card-img-top {
