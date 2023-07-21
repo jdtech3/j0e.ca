@@ -1,20 +1,21 @@
 // Settings
 const target = document.getElementById('whoami');
-const typeDelay = 0.1;          // speeds in seconds
-const backspaceDelay = 0.05;
-const chillDelay = 2;
+const typeDelay = 0.08;          // speeds in seconds
+const backspaceDelay = 0.03;
+const chillDelay = 2.5;
 const before = 'I am '
 const me = [
-    'a Student @ U of T',
+    'a student @ U of T',
     '(hopefully) an Electrical Engineer soon™',
-    'an Archivist',
-    'a Tinkerer',
-    'a Data Hoarder',
-    'a Programmer',
-    'a Sysadmin',
-    'a Homelabber',
-    'a D&D Player',
-    'a Snowboarder',
+    'a startup founder',
+    'an archivist',
+    'a tinkerer',
+    'a data hoarder',
+    'a programmer',
+    'a sysadmin',
+    'a homelabber',
+    'a D&D player',
+    'a snowboarder',
     'a Canadian',
 ]
 
