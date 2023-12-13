@@ -105,6 +105,12 @@ a:hover {
     margin: auto;
     width: 75%;
 }
+#current-projects a:hover {
+    text-decoration: none;
+}
+#completed-projects a:hover {
+    text-decoration: none;
+}
 
 /* About */
 #about-me .card-img-top {
