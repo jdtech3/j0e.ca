@@ -43,14 +43,15 @@
 
               <div class="col mb-2">
                 <div class="card bg-dark h-100">
-                  <img src="assets/agile.png" class="card-img-top" alt="agile. logo">
+                  <img src="assets/aiko.png" class="card-img-top" alt="agile. logo">
                   <div class="card-body d-flex flex-column justify-content-center">
-                    <h5 class="card-title">agile.</h5>
+                    <h5 class="card-title">aiko.</h5>
                     <p class="card-text">
-                      <a href="https://agiletranslate.co">agile.</a> is a MedTech startup working to enable real-time voice translation in a medical setting.
-                      We were one of the winners of UofT Entrepreneurship Hatchery's summer incubator program NEST, and are seeking seed funding in Hatchery's Go-To-Market stage.
+                      <a href="https://agiletranslate.co">aiko.</a> (previously <i>agile.</i>) is a MedTech startup working to enable real-time voice translation in a medical setting.
+                      We were one of the winners of <a href="https://hatchery.engineering.utoronto.ca/">UofT Entrepreneurship Hatchery</a>'s summer incubator program NEST, and are
+                      currently working on pilot studies with multiple long-term care homes in Toronto.
                     </p>
-                    <a href="https://hatchery.engineering.utoronto.ca/team/agile-2023/" class="btn btn-outline-light">UofT Entrepreneurship Hatchery Profile &nbsp;<i class="fas fa-egg"></i></a>
+                    <a href="https://hatchery.engineering.utoronto.ca/team/agile-2023/" class="btn btn-outline-light">Hatchery Profile &nbsp;<i class="fas fa-egg"></i></a>
                   </div>
                 </div>
               </div>
@@ -73,12 +74,14 @@
 
               <div class="col mb-2">
                 <div class="card bg-dark h-100">
-                  <img src="assets/demodulator.png" class="card-img-top" alt="RoboDog">
+                  <img src="assets/intel_xeon_silver_cpu.jpg" class="card-img-top" alt="Placeholder">
                   <div class="card-body d-flex flex-column justify-content-center">
-                    <h5 class="card-title">SSB Demodulator</h5>
+                    <h5 class="card-title">Intel TDX Side-Channel Attacks</h5>
                     <p class="card-text">
-                      Building a single sideband demoulator with a team as part of a hardware design course, meant to integrate together
-                      to form a fully functioning radio transmitting/receiving in the 8-16 MHz (HF) band.
+                      As part of summer research with <a href="https://security.csl.toronto.edu/">Prof. Lie's Toronto Systems Security Lab</a>, I am exploring cache side-channel
+                      vulnerabilities in Intel's latest-gen confidential computing technology for CPUs: <a href="https://www.intel.com/content/www/us/en/developer/tools/trust-domain-extensions/overview.html">Intel TDX</a>.
+                      <br><br>
+                      <i>Funded by an NSERC Undergraduate Student Research Award.</i>
                     </p>
                   </div>
                 </div>
@@ -99,19 +102,6 @@
                       A couple of friends learning aerospace by designing and building our own fixed-wing remote-controlled aircraft.
                       Currently in detail design of our revision 0—a 2m wingspan plane with custom airframe and off-the-shelf electronics.
                     </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col mb-2">
-                <div class="card bg-dark h-100">
-                  <img src="assets/flightgpa.png" class="card-img-top" alt="Placeholder">
-                  <div class="card-body d-flex flex-column justify-content-center">
-                    <h5 class="card-title">FlightGPA</h5>
-                    <p class="card-text">
-                      Building a retro flight simulator (term used loosely) game in Verilog on the DE1 SoC (equipped with a Intel/Altera Cyclone V FPGA).
-                    </p>
-                    <a href="https://github.com/jdtech3/FlightGPA" class="btn btn-outline-light">GitHub &nbsp;<i class="fab fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -214,17 +204,40 @@
 
               <div class="col mb-2">
                 <div class="card bg-dark h-100">
+                  <img src="assets/flightgpa.png" class="card-img-top" alt="Placeholder">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <h5 class="card-title">FlightPGA</h5>
+                    <p class="card-text">
+                      Almost completed retro 3D flight simulator in Verilog on the DE1-SoC (w/ Altera Cyclone V FPGA).
+                      Included fully pipelined vector/matrix operations and SDRAM based VRAM.
+                      <br><br>
+                      Unfortunately, slow VRAM performance was too problematic, see FlightPGA2 for its successor!
+                    </p>
+                    <a href="https://github.com/jdtech3/FlightGPA" class="btn btn-outline-light">GitHub &nbsp;<i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-2">
+                <div class="card bg-dark h-100">
                   <img src="assets/flightgpa2.jpg" class="card-img-top" alt="FlightGPA2">
                   <div class="card-body d-flex flex-column justify-content-center">
-                    <h5 class="card-title">FlightGPA2</h5>
+                    <h5 class="card-title">FlightPGA2</h5>
                     <p class="card-text">
-                      Second attempt at building a 3D flight simulator from scratch on the DE1-SoC, this time in C++ on a Nios II soft-core running on the Cyclone V FPGA.
-                      Even interfaces with a HOTAS joystick!
+                      Second attempt at building a 3D flight simulator from scratch on the DE1-SoC, this time in C++ on a Nios II soft-core running on the Altera Cyclone V FPGA.
+                      <br>
+                      Even interfaces with a HOTAS joystick and includes environmental sound effects!
                     </p>
                     <a href="https://github.com/jdtech3/flightGPA2" class="btn btn-outline-light">GitHub &nbsp;<i class="fab fa-github"></i></a>
                   </div>
                 </div>
               </div>
+
+            </div>
+
+            <!-- Third row -->
+
+            <div class="row">
 
               <div class="col mb-2">
                 <div class="card bg-dark h-100">
@@ -236,6 +249,20 @@
                       <a href="https://rsx.squarespace.com">Robotics for Space Exploration (RSX)</a> design team.
                     </p>
                     <a href="https://github.com/rsx-utoronto/Electrical_Remote_E_Stop_2022_2023" class="btn btn-outline-light">GitHub &nbsp;<i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-2">
+                <div class="card bg-dark h-100">
+                  <img src="assets/demodulator.png" class="card-img-top" alt="RoboDog">
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <h5 class="card-title">SSB Demodulator</h5>
+                    <p class="card-text">
+                      Built a single sideband demoulator as part of a team-based hardware design course, to be integrated with other modules
+                      to form a software-defined radio transceiver in the 8-16 MHz (HF) band.
+                    </p>
+                    <a href="https://github.com/jdtech3/SSB-Demod" class="btn btn-outline-light">GitHub &nbsp;<i class="fab fa-github"></i></a>
                   </div>
                 </div>
               </div>
