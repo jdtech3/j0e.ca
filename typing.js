@@ -3,7 +3,7 @@ const target = document.getElementById('whoami');
 const typeDelay = 0.08;          // speeds in seconds
 const backspaceDelay = 0.03;
 const chillDelay = 2.5;
-const before = 'I am '
+const before = 'I am ';
 const me = [
     'a student @ U of T',
     '(hopefully) an Electrical Engineer soon™',
@@ -17,10 +17,10 @@ const me = [
     'a D&D player',
     'a snowboarder',
     'a Canadian',
-]
+];
 
 // Turn into array of char arrays
-let me_expanded = []
+let me_expanded = [];
 for (const elem of me) {
     me_expanded.push(elem.split(''));
 }
